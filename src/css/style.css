@@ -1,0 +1,20 @@
+:root{
+    /* FONT FAMILY */
+    --ff-fst: 'Major Mono Display', monospace;
+    --ff-sec: 'Livvic', sans-serif;
+    /* FONT WEIGHT */
+    --fw-extraLight: 200;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    /* COLOR */
+    --clr-praimry: #ffc838;
+    --clr-text: #000000;
+    --clr-crad: #ffffff;
+    --clr-navbtns-bg: #ffffff40;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
