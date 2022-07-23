@@ -147,8 +147,9 @@ nav .nav-container .nav-menu ul li a{
 	justify-content: space-around;
 	align-items: center;
 	width: 100vw;
-	height: 40vh;
+	height: 50vh;
 	background-color: var(--clr-praimry);
+    padding: 1rem;
 }
 .about-section .about-heading{
 	font-family: var(--ff-fst);
@@ -159,7 +160,7 @@ nav .nav-container .nav-menu ul li a{
 .about-section .about-container{
 	display: flex;
 	flex-direction: row;
-	padding: 2rem;
+	padding: 1rem;
 }
 .about-section .about-container .about-info{
 	font-family: var(--ff-sec);
@@ -170,4 +171,71 @@ nav .nav-container .nav-menu ul li a{
 .about-section .about-container .about-img{
 	display: none;
 }
-
+/* END OF About SECTION  */
+/* SKILLS SECTION */
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    background-color: var(--clr-praimry);
+    padding: 1rem;
+}
+.skills-section .skills-heading h1{
+    font-family: var(--ff-fst);
+    font-size: 2rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.skills-section .skills-heading h1::first-letter{
+    text-transform: lowercase;
+}
+.skills-section .skills-cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    width: 80vw;
+    height: 20vh;
+    font-family: var(--ff-sec);
+}
+.skills-section .skills-cards-container .skills-cards{
+    border-bottom: 5px solid var(--clr-text);
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+.skills-section .skills-cards-container .skills-cards .fa-caret-down{
+    font-size: 1.5rem;
+    color: var(--clr-text);
+}
+/* END OF SKILLS SECTION */
+/* OFFER SECTION */
+.offer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--clr-praimry);
+    padding-inline: 4rem;
+}
+.offer-section h1{
+    font-family: var(--ff-fst);
+    font-size: 2rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.offer-section h1::first-letter{
+    text-transform: lowercase;
+}
+.offer-section p{
+    font-family: var(--ff-sec);
+    font-weight: var(--fw-regular);
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* END OF OFFER SECTION */
