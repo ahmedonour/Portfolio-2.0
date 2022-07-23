@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 body{
-    /* background-color: var(--clr-praimry); */
+    background-color: var(--clr-praimry);
 }
 body::-webkit-scrollbar{
     display: none;
@@ -139,6 +139,24 @@ nav .nav-container .nav-menu ul li a{
     width: 100%;
     z-index: -1;
 }
+.hero-section .hero-button button{
+	padding: 1rem;
+	background-color: var(--clr-praimry);
+	border: none;
+	border-radius: 40px;
+	font-size: 1.5rem;
+	font-family: var(--ff-sec);
+	font-weight: var(--fw-bold);
+	position: absolute;
+	top: 60vh;
+	right: 7vw;
+
+}
+.hero-section .hero-button button:hover{
+	background-color: var(--clr-navbtns-bg);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
 /* End HERO Section */
 /* About SECTION */
 .about-section{
@@ -204,12 +222,43 @@ nav .nav-container .nav-menu ul li a{
 .skills-section .skills-cards-container .skills-cards{
     border-bottom: 5px solid var(--clr-text);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 80vw;
+}
+.skills-section .skills-cards-container .skills-cards .up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.skills-section .skills-cards-container .skills-cards .skills-cards-p{
+    display: none;
+    position: relative;
+    background-color: var(--clr-crad);
+    width: 70%;
+    top: 20px;
+    box-shadow: var(--bs-4px);
+    padding: 1rem;
+    z-index: 1;
+}
+.skills-section .skills-cards-container .skills-cards:hover .skills-cards-p{
+    display: block;
 }
 .skills-section .skills-cards-container .skills-cards .fa-caret-down{
     font-size: 1.5rem;
     color: var(--clr-text);
+}
+.skills-section .skills-cards-container .skills-cards .fa-caret-up{
+    font-size: 1.5rem;
+    color: var(--clr-text);
+    display: none;
+}
+.skills-section .skills-cards-container .skills-cards:hover .fa-caret-down{
+    display: none;
+}
+.skills-section .skills-cards-container .skills-cards:hover .fa-caret-up{
+    display: block;
 }
 /* END OF SKILLS SECTION */
 /* OFFER SECTION */
@@ -239,3 +288,109 @@ nav .nav-container .nav-menu ul li a{
     text-align: center;
 }
 /* END OF OFFER SECTION */
+/* MY work section */
+.work-section{
+	width:  100vw;
+	height: auto;
+	background-color: var(--clr-praimry);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.work-section .work-heading{
+	font-size: 1.5rem;
+	font-family: var(--ff-fst);
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.work-section .work-card-container .work-card{
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-block: 2rem;
+	padding-inline: 1rem;
+}
+.work-section .work-card-container .work-card .work-card-img{
+	width: 70vw;
+	margin: 1rem;
+}
+.work-section .work-card-container .work-card .work-card-img img{
+	width: 70vw;
+}
+.work-section .work-card-container .work-card .work-card-title{
+	font-family: var(--ff-fst);
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin: 1rem;
+}
+.work-section .work-card-container .work-card .work-card-desc{
+	width: 100%;
+	background-color: var(--clr-crad);
+	padding-inline: 2rem;
+	padding-block: 1rem;
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: var(--ff-sec);
+}
+.work-section .work-card-container .work-card .work-card-button{
+	margin-top: 1rem;
+}
+.work-section .work-card-container .work-card .work-card-button button{
+	padding: 1rem;
+	width: 50vw;
+	font-size: 1.5rem;
+	font-family: var(--ff-sec);
+	font-weight: var(--fw-bold);
+	background-color: var(--clr-crad);
+	border-radius: 30px;
+	border: none;
+}
+.work-section .work-card-container .work-card .work-card-button button:hover{
+	background-color: var(--clr-text);
+	color: var(--clr-crad);
+}
+.contact-section{
+	width: 100vw;
+	padding: 2rem;
+	background-color: var(--clr-crad);
+	color: #808080;
+	text-decoration: none;
+}
+.contact-section .contact-heading{
+	font-family: var(--ff-fst);
+	padding-bottom: 1rem;
+	font-size: 1.5rem;
+}
+.contact-section .contact-container .contact-info{
+	font-family: var(--ff-sec);
+	font-weight: var(--fw-extraLight);
+	font-size: 1rem;
+}
+.contact-section .contact-container .contact-info p a{
+	text-decoration: none;
+	color: var(--clr-praimry);
+}
+.error{
+	display: none;
+}
+/* END MY WORK */
+@media screen and (min-width: 420px){
+	.error{
+		background-color: var(--clr-praimry);
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items: center;
+		text-align: center;
+		color: red;
+		z-index: 5;
+	}
+}
