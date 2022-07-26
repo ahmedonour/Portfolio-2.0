@@ -254,8 +254,12 @@ nav .nav-container .nav-menu ul li a{
     padding: 1rem;
     z-index: 1;
 }
+.skills-section .skills-cards-container .skills-cards:hover{
+	display: flex;
+	flex-direction: column;
+}
 .skills-section .skills-cards-container .skills-cards:hover .skills-cards-p{
-    display: block;
+    display: flex;
 }
 .skills-section .skills-cards-container .skills-cards .fa-caret-down{
     font-size: 1.5rem;
