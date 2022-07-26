@@ -147,6 +147,7 @@ nav .nav-container .nav-menu ul li a{
 .hero-section .hero-button button{
 	padding: 1rem;
 	background-color: var(--clr-praimry);
+	color: var(--clr-text);
 	border: none;
 	border-radius: 40px;
 	font-size: 1.5rem;
