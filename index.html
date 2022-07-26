@@ -16,8 +16,7 @@
 <body>
 	<div class="error">
 		<h1>ERROR</h1>
-		<p>THIS WEBSITE NOT RESPONSIVE FOR NOW PLEASE OPEN IT IN MOBILE VIWE</p>
-		<p>it will be ready on 27 July 2022</p>
+		<p>THIS WEBSITE Dosen't have <b>TABLET</b> view FOR NOW PLEASE OPEN IT IN <b>MOBILE</b> VIWE OR <b>DESKTOP</b></p>
 	</div>
 
     <!-- NAV BAR -->
@@ -48,17 +47,21 @@
     <!-- HERO SECTION -->
     <section class="hero-section" id="hero">
         <div class="hero-heading">
-            <p class="hero-head-name">Ahmed<br>suliman<br>onour</p>
+            <p class="hero-head-name">
+				<img src="/src/svg/H-bar.svg" alt="">
+				Ahmed<br>suliman<br>onour
+			</p>
             <p>Front-End Developer</p>
+			
         </div>
         <div class="hero-mobile-svg">
             <img src="/src/svg/mobile-h-bar.svg" alt="svg">
         </div>
         <div class="hero-img">
-            <img src="/src/img/personal.jpg" alt="my photo">
+			<img src="/src/img/personal.jpg" id="my-image" alt="my photo">
         </div>
 		<div class="hero-button">
-			<a href="https://github.com/ahmedonour/"><button>My Github</button></a>
+			<a href="https://github.com/ahmedonour/" target="_blank"><button>My Github</button></a>
 		</div>
     </section>
     <!-- END OF HERO SECTION -->
@@ -68,12 +71,13 @@
             <h1>About</h1>
         </div>
 		<div class="about-container">
-            <div class="About-info">
-				<p>I am Ahmed Suliman Onour, I am Sudanese ,Talneted, Front-end developer, I started learning the fundmental when i was 12 y/o, Long story short I have been curious since childhood, and because of that I had a question, which is, How do web pages work?  And who makes it? And from here my journey began. <br> I'm learning fast, and because of that I use a lot of frameworks and languages, I love ♥ front-end development, to the point where I don't even feel the time when I'm developing a page, I've fallen in love with it since I asked Who makes web pages?</p>
+            <div class="about-info">
+				<p>I am Ahmed Suliman Onour, I am Sudanese ,Talneted, Front-end developer, I started learning the fundmental when i was 12 y/o, Long story short I have been curious since childhood, and because of that I had a question, which is, How do web pages work?  And who makes it? And from here my journey began. <br> I'm learning fast, and because of that I use a lot of frameworks and languages, I love ♥ front-end development, to the point where I don't even feel the time when I'm developing a page, I've fallen in love with it since I asked Who makes web pages?.</p>
+				<div class="about-img">
+					<img src="/src/img/img-1.jpg" alt="image numper one">
+				</div>
             </div>
-            <div class="about-img">
-				<img src="/src/img/img-1.jpg" alt="image numper one">
-			</div>
+           
         </div>
     </section>
     <!-- END OF About SECTION -->
@@ -83,7 +87,8 @@
             <h1>sKILLS</h1>
         </div>
         <div class="skills-svg">
-            <img src="/src/svg/mobail-icons.svg" alt="programing languges icons" srcset="">
+			<img src="/src/svg/mobail-icons.svg" alt="programing languges icons" id="mobile-icons">
+			<img src="/src/svg/Icon.svg" alt="" id="desktop-icons">
         </div>
         <div class="skills-cards-container">
             <div class="skills-cards">
@@ -118,7 +123,10 @@
     <!-- OFFER SECTION -->
     <section class="offer-section" id="offer">
         <h1>oFFER</h1>
-        <p>I am offering you my time and creativty, To preduse an eligant interfaces, In short time and with any new or old front end technology.</p>
+		<div class="offer-content">
+			<p>I am offering you my time and creativty, To preduse an eligant interfaces, In short time and with any new or old front end technology.</p>
+			<img src="/src/img/img-2.jpg" alt="content image">
+		</div>
     </section>
     <!-- END OFFER SECTION -->
     <!-- WORK SECTION -->
@@ -138,7 +146,52 @@
 					<p>Rosahan, it's a real estate platform, that i built for my graduation, i used <b>NodeJS</b> for the back-end, And <b>EJS & CSS</b> for the front-end, It was amazing expiernce for me, And a challange that i nailed it 💪</p>
                 </div>
                 <div class="work-card-button">
-                    <a href="https://github.com/ahmedonour/roshan"><button type="submit">Code</button></a>
+                    <a href="https://github.com/ahmedonour/roshan" target="_blank"><button type="submit">Code</button></a>
+                </div>
+            </div>
+			<div class="work-card">
+                <div class="work-card-img">
+					<img src="/src/img/Screenshot-2.png" alt="Roshan For real estat image">
+                </div>
+                <div class="work-card-title">
+                    <p>anime</p>
+                </div>
+                <div class="work-card-desc">
+					<p>ANIME, It's a <b>Responsive</b> single page that i built out of fun, The idea came from my adctic (on anime) frindes, I thoute to my self that, If there a website that manage your anime daily reading, watching and may be lisnening, It will save alot of time for this young boys </p>
+                </div>
+                <div class="work-card-button">
+                    <a href="https://anime-1.netlify.app/" target="_blank"><button type="submit">Site</button></a>
+					<a href="https://github.com/ahmedonour/anime" target="_blank"><button type="submit">Code</button></a>
+                </div>
+            </div>
+			<div class="work-card">
+                <div class="work-card-img">
+					<img src="/src/img/Screenshot-3.png" alt="Roshan For real estat image">
+                </div>
+                <div class="work-card-title">
+                    <p>product card</p>
+                </div>
+                <div class="work-card-desc">
+					<p>This is a <a href="https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-css-flex-box-oH96j-jq9i" target="_blank">Frontend Menteor</a> challang, that i solved, they give us a desing, and they wanted us to do a <b>pixel perfect</b> product card and the best work win.</p>
+                </div>
+                <div class="work-card-button">
+					<a href="https://card-preview-product.netlify.app" target="_blank"><button type="submit">Site</button></a>
+                    <a href="https://github.com/ahmedonour/Product-preview-card-component" target="_blank"><button type="submit">Code</button></a>
+                </div>
+            </div>
+			<div class="work-card">
+                <div class="work-card-img">
+					<img src="/src/img/Screenshot-4.png" alt="Roshan For real estat image">
+                </div>
+                <div class="work-card-title">
+					<p>Old Portfolio</p>
+                </div>
+                <div class="work-card-desc">
+					<p>This my old portfolio, I found out that the colors and the design are poor, So i redesigned it, And i made this one you are in now. </p>
+                </div>
+                <div class="work-card-button">
+					<a href="https://onour-old-portfolio.netlify.app/" target="_blank"><button type="submit">Site</button></a>
+                    <a href="https://github.com/ahmedonour/portfolio" target="_blank"><button type="submit">Code</button></a>
                 </div>
             </div>
         </div>
@@ -153,6 +206,10 @@
             <div class="contact-info">
                 <p>I am available for hire, If you have any questions, please contact me.</p>
                 <p>Email: <a href="mailto:ahmedonour.49@gmail.com">ahmedonour.49@gmail.com</a></p>
+				<p>Email: <a href="mailto:ahmedonour.2018@gmail.com">ahmedonour.2018@gmail.com</a></p>
+                <p>Phone: <a href="">+249 92 513 8799</a></p>
+			</div>
+		</div>
     </section>
     <!-- END OF CONTACT SECTION -->
 </body>
