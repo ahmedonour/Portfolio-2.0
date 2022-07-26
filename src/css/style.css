@@ -248,7 +248,7 @@ nav .nav-container .nav-menu ul li a{
     display: none;
     position: relative;
     background-color: var(--clr-crad);
-    width: 70%;
+    width: 100%;
     top: 20px;
     box-shadow: var(--bs-4px);
     padding: 1rem;
@@ -257,6 +257,9 @@ nav .nav-container .nav-menu ul li a{
 .skills-section .skills-cards-container .skills-cards:hover{
 	display: flex;
 	flex-direction: column;
+}
+.skills-section .skills-cards-container .skills-cards:hover > .skills-cards-p{
+    display: flex;
 }
 .skills-section .skills-cards-container .skills-cards:hover .skills-cards-p{
     display: flex;
