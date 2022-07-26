@@ -273,10 +273,10 @@ nav .nav-container .nav-menu ul li a{
     color: var(--clr-text);
     display: none;
 }
-.skills-section .skills-cards-container .skills-cards:hover .fa-caret-down{
+.skills-section .skills-cards-container .skills-cards:hover .up .fa-caret-down{
     display: none;
 }
-.skills-section .skills-cards-container .skills-cards:hover .fa-caret-up{
+.skills-section .skills-cards-container .skills-cards:hover .up .fa-caret-up{
     display: block;
 }
 /* END OF SKILLS SECTION */
@@ -598,6 +598,7 @@ nav .nav-container .nav-menu ul li a{
 	}
 	.skills-section .skills-cards-container{
 		width: 100%;
+		height: 130%;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
@@ -606,15 +607,17 @@ nav .nav-container .nav-menu ul li a{
 		border: none;
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-around;
-		height: 100%;
+		justify-content: center;
+		width: 25%;
+		height: 50%;
+		cursor: pointer;
 	}
 	.skills-section .skills-cards-container .skills-cards .up .fa-caret-down{
 		display: flex;
 	}
 	.skills-cards .skills-cards-container .skills-cards .skills-cards-p{
 		display: flex;
-		width: 100%;
+		width: 70%;
 		height: 100%;
 		border-radius:50px;
 		cursor: pointer;
