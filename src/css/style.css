@@ -234,7 +234,7 @@ nav .nav-container .nav-menu ul li a{
 .skills-section .skills-cards-container .skills-cards{
     border-bottom: 5px solid var(--clr-text);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 80vw;
 }
@@ -264,11 +264,11 @@ nav .nav-container .nav-menu ul li a{
 .skills-section .skills-cards-container .skills-cards:hover .skills-cards-p{
     display: flex;
 }
-.skills-section .skills-cards-container .skills-cards .fa-caret-down{
+.skills-section .skills-cards-container .skills-cards .up .fa-caret-down{
     font-size: 1.5rem;
     color: var(--clr-text);
 }
-.skills-section .skills-cards-container .skills-cards .fa-caret-up{
+.skills-section .skills-cards-container .skills-cards .up .fa-caret-up{
     font-size: 1.5rem;
     color: var(--clr-text);
     display: none;
