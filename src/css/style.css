@@ -216,6 +216,9 @@ nav .nav-container .nav-menu ul li a{
 .skills-section .skills-heading h1::first-letter{
     text-transform: lowercase;
 }
+.skills-section .skills-svg #mobile-icons{
+	margin-top: 1rem;
+}
 .skills-section .skills-svg #desktop-icons{
 	display:  none;
 }
