@@ -171,7 +171,7 @@ nav .nav-container .nav-menu ul li a{
 	justify-content: space-around;
 	align-items: center;
 	width: 100vw;
-	height: 50vh;
+	height: auto;
 	background-color: var(--clr-praimry);
     padding: 1rem;
 }
@@ -203,7 +203,7 @@ nav .nav-container .nav-menu ul li a{
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 60vh;
+    height: auto;
     background-color: var(--clr-praimry);
     padding: 1rem;
 }
