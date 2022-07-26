@@ -27,6 +27,9 @@ body{
 body::-webkit-scrollbar{
     display: none;
 }
+button{
+	cursor: pointer ;
+}
 /* NAV bar */
 nav{
     width: 100vw;
