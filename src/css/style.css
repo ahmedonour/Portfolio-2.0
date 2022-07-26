@@ -609,7 +609,7 @@ nav .nav-container .nav-menu ul li a{
 		justify-content: space-around;
 		height: 100%;
 	}
-	.skills-section .skills-cards-container .skills-cards .fa-caret-down{
+	.skills-section .skills-cards-container .skills-cards .up .fa-caret-down{
 		display: flex;
 	}
 	.skills-cards .skills-cards-container .skills-cards .skills-cards-p{
