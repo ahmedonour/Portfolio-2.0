@@ -360,6 +360,7 @@ nav .nav-container .nav-menu ul li a{
 	background-color: var(--clr-crad);
 	border-radius: 30px;
 	border: none;
+	color: var(--clr-text);
 }
 .work-section .work-card-container .work-card .work-card-button button:hover{
 	background-color: var(--clr-text);
